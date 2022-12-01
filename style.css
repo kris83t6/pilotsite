@@ -14,7 +14,6 @@ main {
 }
 
 body {
-  background-color: #d6a184;
   background-color: #957186;
 }
 
@@ -50,6 +49,14 @@ img {
   border-radius: 5%;
 }
 
+.forsideimg {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 18/9;
+  border-radius: 90%;
+  padding: 1rem;
+}
+
 iframe {
   width: 100%;
   height: auto;
@@ -71,8 +78,6 @@ video {
 }
 
 .videodiv {
-  background-color: #fec196;
-  background-color: #d6a184;
   background-color: #d9b8c4;
   border-radius: 5%;
 }
