@@ -14,6 +14,7 @@ img {
 .forsideimg {
   width: 100%;
   height: auto;
+  display: block;
   aspect-ratio: 17.5/9;
   border-radius: 90%;
   padding: 1rem;
