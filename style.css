@@ -1,29 +1,45 @@
 * {
 }
 
+@font-face {
+  font-family: "chewyregular";
+  src: url("chewy-regular-webfont.woff2") format("woff2"), url("chewy-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 main {
-  margin-top: 0.5rem;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
 
 body {
   background-color: #d6a184;
+  background-color: #957186;
 }
 
 h1 {
-  color: #63474d;
-  font-family: "Ubuntu", sans-serif;
+  color: #4c212a;
+  font-family: "chewyregular";
   font-size: 3rem;
   text-align: center;
 }
 
 h2 {
   margin-left: 1rem;
-  font-family: "Ubuntu", sans-serif;
-  color: #63474d;
-  font-weight: bolder;
-  font-size: 2rem;
+  font-family: "chewyregular";
+  color: #4c212a;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h3 {
+  margin-left: 1rem;
+  font-family: "chewyregular";
+  color: #4c212a;
+  font-weight: 900;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -56,6 +72,8 @@ video {
 
 .videodiv {
   background-color: #fec196;
+  background-color: #d6a184;
+  background-color: #d9b8c4;
   border-radius: 5%;
 }
 
