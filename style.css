@@ -1,4 +1,22 @@
 * {
+  margin: 0.5rem;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  border-radius: 5%;
+}
+
+.forsideimg {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 17.5/9;
+  border-radius: 90%;
+  padding: 1rem;
 }
 
 @font-face {
@@ -6,11 +24,6 @@
   src: url("chewy-regular-webfont.woff2") format("woff2"), url("chewy-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-}
-
-main {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
 }
 
 body {
@@ -42,21 +55,6 @@ h3 {
   text-align: center;
 }
 
-img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 16/9;
-  border-radius: 5%;
-}
-
-.forsideimg {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 18/9;
-  border-radius: 90%;
-  padding: 1rem;
-}
-
 iframe {
   width: 100%;
   height: auto;
@@ -71,17 +69,20 @@ video {
   border-radius: 5%;
 }
 
-.grid1_1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-
-.videodiv {
+.div {
   background-color: #d9b8c4;
   border-radius: 5%;
+  aspect-ratio: 16/9;
 }
 
-.videocontent {
+.content {
   padding: 0.75rem;
+}
+
+@media (min-width: 800px) {
+  .grid1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
 }
