@@ -1,0 +1,55 @@
+* {
+}
+
+main {
+  padding: 0.5rem;
+}
+
+body {
+  background-color: #d6a184;
+}
+
+h1 {
+  color: #63474d;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  margin-left: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #63474d;
+  font-weight: bolder;
+  font-size: 2rem;
+  text-align: center;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  border-radius: 5%;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  border-radius: 5%;
+}
+
+.grid1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.videodiv {
+  background-color: #fec196;
+  border-radius: 5%;
+}
+
+.videocontent {
+  padding: 0.75rem;
+}
