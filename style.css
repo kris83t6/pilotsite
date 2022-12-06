@@ -1,5 +1,5 @@
 * {
-  margin: 0.5rem;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -15,20 +15,22 @@ img {
   width: 100%;
   height: auto;
   display: block;
-  aspect-ratio: 17.5/9;
+  aspect-ratio: 9/16;
   border-radius: 90%;
   padding: 1rem;
 }
 
 @font-face {
   font-family: "chewyregular";
-  src: url("chewy-regular-webfont.woff2") format("woff2"), url("chewy-regular-webfont.woff") format("woff");
+  src: url("fonts/chewy-regular-webfont.woff2") format("woff2"), url("fonts/chewy-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 body {
   background-color: #957186;
+  margin: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 h1 {
@@ -85,5 +87,14 @@ video {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+  }
+
+  .forsideimg {
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: 17.5/9;
+    border-radius: 90%;
+    padding: 1rem;
   }
 }
